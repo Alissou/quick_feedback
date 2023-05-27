@@ -131,7 +131,7 @@ class _QuickFeedbackState extends State<QuickFeedback> {
         child: IconButton(
           icon: Icon(
             _rating >= rateValue ? Icons.star : Icons.star_border,
-            color: Theme.of(context).accentColor,
+            color: Theme.of(context).colorScheme.secondary,
             size: 35,
           ),
           onPressed: () {
